@@ -1,0 +1,4 @@
+services:
+  gamification_points.default:
+    class: Drupal\gamification_points\GamificationPointsServices
+    arguments: []

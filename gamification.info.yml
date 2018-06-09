@@ -1,0 +1,5 @@
+name: 'gamification'
+type: module
+description: 'Gamificate drupal projects'
+core: 8.x
+package: 'Gamification'

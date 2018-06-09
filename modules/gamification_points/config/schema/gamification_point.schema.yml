@@ -1,0 +1,12 @@
+gamification_points.gamification_point.*:
+  type: config_entity
+  label: 'Gamification point config'
+  mapping:
+    id:
+      type: string
+      label: 'ID'
+    label:
+      type: label
+      label: 'Label'
+    uuid:
+      type: string

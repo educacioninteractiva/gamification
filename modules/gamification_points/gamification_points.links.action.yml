@@ -1,0 +1,6 @@
+entity.gamification_point.add_form:
+  route_name: entity.gamification_point.add_form
+  title: 'Add Gamification point'
+  appears_on:
+    - entity.gamification_point.collection
+

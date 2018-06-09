@@ -1,0 +1,35 @@
+<?php
+
+/**
+ * @file
+ * Contains gamification.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function gamification_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the gamification module.
+    case 'help.page.gamification':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Gamificate drupal projects') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function gamification_theme() {
+  return [
+    'gamification' => [
+      'render element' => 'children',
+    ],
+  ];
+}

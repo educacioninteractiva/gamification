@@ -1,0 +1,9 @@
+
+# Gamification point menu items definition
+entity.gamification_point.collection:
+  title: 'Gamification point'
+  route_name: entity.gamification_point.collection
+  description: 'List Gamification point (bundles)'
+  parent: system.admin_structure
+  weight: 99
+

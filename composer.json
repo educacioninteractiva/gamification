@@ -1,0 +1,14 @@
+{
+  "name": "drupal/gamification",
+  "type": "drupal-module",
+  "description": "Gamificate drupal projects",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/gamification",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/gamification",
+    "source": "http://cgit.drupalcode.org/gamification"
+  },
+  "require": { }
+}

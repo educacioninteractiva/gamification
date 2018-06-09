@@ -1,0 +1,5 @@
+name: 'gamification_points'
+type: module
+description: 'Gamification points'
+core: 8.x
+package: 'Gamification'
